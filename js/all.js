@@ -30,11 +30,11 @@ axios.get('https://raw.githubusercontent.com/hexschool/KCGTravel/master/datastor
  </div>
  <div class="container">
  <ul class="infor">
- <li><img class="icon"  src="../img/icons_clock.png" alt="">${item.Opentime}</li>
-<li><img class="icon"  src="../img/icons_pin.png" alt="">${item.Add}</li>
+ <li><img class="icon"  src="./img/icons_clock.png" alt="">${item.Opentime}</li>
+<li><img class="icon"  src="./img/icons_pin.png" alt="">${item.Add}</li>
 <li class="d-flex jcsb">
-<p><img class="icon"  src="../img/icons_phone.png" alt=""> ${item.Tel}</p>
-<p><img class="icon"  src="../img/icons_tag.png" alt="">${item.Ticketinfo}</p>
+<p><img class="icon"  src="./img/icons_phone.png" alt=""> ${item.Tel}</p>
+<p><img class="icon"  src="./img/icons_tag.png" alt="">${item.Ticketinfo}</p>
 </div>
  </li>`
     }
@@ -63,11 +63,11 @@ function changeCheck(e) {
  </div>
  <div class="container">
  <ul class="infor">
- <li><img class="icon"  src="../img/icons_clock.png" alt="">${item.Opentime}</li>
-<li><img class="icon"  src="../img/icons_pin.png" alt="">${item.Add}</li>
+ <li><img class="icon"  src="./img/icons_clock.png" alt="">${item.Opentime}</li>
+<li><img class="icon"  src="./img/icons_pin.png" alt="">${item.Add}</li>
 <li class="d-flex jcsb">
-<p><img class="icon"  src="../img/icons_phone.png" alt=""> ${item.Tel}</p>
-<p><img class="icon"  src="../img/icons_tag.png" alt="">${item.Ticketinfo}</p>
+<p><img class="icon"  src="./img/icons_phone.png" alt=""> ${item.Tel}</p>
+<p><img class="icon"  src="./img/icons_tag.png" alt="">${item.Ticketinfo}</p>
 </div>
  </li>`
     }
@@ -94,11 +94,11 @@ function check(e) {
  </div>
  <div class="container">
  <ul class="infor">
- <li><img class="icon"  src="../img/icons_clock.png" alt="">${item.Opentime}</li>
-<li><img class="icon"  src="../img/icons_pin.png" alt="">${item.Add}</li>
+ <li><img class="icon"  src="./img/icons_clock.png" alt="">${item.Opentime}</li>
+<li><img class="icon"  src="./img/icons_pin.png" alt="">${item.Add}</li>
 <li class="d-flex jcsb">
-<p><img class="icon"  src="../img/icons_phone.png" alt=""> ${item.Tel}</p>
-<p><img class="icon"  src="../img/icons_tag.png" alt="">${item.Ticketinfo}</p>
+<p><img class="icon"  src="./img/icons_phone.png" alt=""> ${item.Tel}</p>
+<p><img class="icon"  src="./img/icons_tag.png" alt="">${item.Ticketinfo}</p>
 </div>
  </li>`
     }
