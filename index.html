@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js最終作業</title>
+    <link rel="stylesheet" href="css/scss/all.css">
+</head>
+
+<body>
+    <div class="banner">
+        <h1>高雄旅遊資訊</h1>
+        <div class="banner-search">
+              <!-- 切換 點擊事件 -->
+            <select class="region" name="行政地區">
+                <option value="" disabled selected hidden>--請選擇行政地區--</option>
+                <option value="三民區">三民區</option>
+                <option value="美濃區">美濃區</option>
+                <option value="大樹區">大樹區</option>
+                <option value="六龜區">六龜區</option>
+                <option value="仁武區">仁武區</option>
+                <option value="左營區">左營區</option>
+                <option value="甲仙區">甲仙區</option>
+                <option value="岡山區">岡山區</option>
+                <option value="前鎮區">前鎮區</option>
+                <option value="苓雅區">苓雅區</option>
+                <option value="鼓山區">鼓山區</option>
+                <option value="茂林區">茂林區</option>
+            </select>
+        </div>
+    </div>
+    <div class="nav">
+        <h3>熱門行政區</h3>
+        <!-- 按鈕 點擊事件 -->
+        <div class="nav-region">
+            <input type="button" class="nav-btn success" value="苓雅區">
+            <input type="button" class="nav-btn warning" value="三民區">
+            <input type="button" class="nav-btn info" value="大樹區">
+            <input type="button" class="nav-btn light" value="左營區">
+        </div>
+    </div>
+    
+
+    <div class="border"></div>
+    <div class="main">
+        <h2 class="title"></h2>
+        <!-- 要渲染的位置 -->
+        <ul class="list d-flex">
+
+        </ul>
+    </div>
+
+    <div class="footer">
+
+        <h4>高雄旅遊網</h4>
+        <p>資料來源：高雄市政府 </p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/all.js"></script>
+
+</body>
+
+</html>

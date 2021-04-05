@@ -1,0 +1,276 @@
+.infor {
+  margin: 0 auto;
+  padding: 92px 0;
+  background: #424242;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.infor h3 {
+  font-size: 18px;
+  color: #FFD366;
+}
+
+.infor ul {
+  margin-right: 57px;
+}
+
+.infor li {
+  margin-bottom: 23px;
+}
+
+.infor-img {
+  margin-right: 97px;
+}
+
+.lhText, .kgText {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid #FFD366;
+  border-radius: 10px;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+}
+
+.bmi-lh {
+  display: block;
+  color: #FFD366;
+  margin-bottom: 7px;
+}
+
+.bmi-kg {
+  display: block;
+  color: #FFD366;
+  margin-bottom: 7px;
+}
+
+.bmi-btn {
+  font-size: 24px;
+  color: #424242;
+  background: #FFD366;
+  padding: 48px 23px;
+  border-radius: 50%;
+  font-weight: bold;
+  margin-right: 18px;
+}
+
+.inputBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.content {
+  padding: 48px 0 74px 0;
+  width: 624px;
+  margin: 0 auto;
+}
+
+.content li {
+  padding: 21px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 16px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFF;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 2px 0 3px 0 rgba(49, 186, 249, 0.29);
+          box-shadow: 2px 0 3px 0 rgba(49, 186, 249, 0.29);
+  position: relative;
+}
+
+.content li p {
+  font-size: 20px;
+}
+
+.content li p span {
+  font-size: 12px;
+}
+
+h4 {
+  font-size: 20px;
+  color: #4A4A4A;
+}
+
+.title {
+  font-size: 24px;
+  color: #424242;
+}
+
+.border {
+  width: 7px;
+  -webkit-box-shadow: 2px 0 3px 0 rgba(49, 186, 249, 0.29);
+          box-shadow: 2px 0 3px 0 rgba(49, 186, 249, 0.29);
+}
+
+.success {
+  background: #86D73F;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.danger {
+  background: #31BAF9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.warning {
+  background: #FF982D;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.info {
+  background: #FF6C02;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.muted {
+  background: #580509;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.dark {
+  background: #FF1200;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.infor .resultTitle {
+  font-size: 32px;
+}
+
+.btnDanger {
+  background: #424242;
+  color: #31BAF9;
+  border: 6px solid #31BAF9;
+}
+
+.btnSuccess {
+  background: #424242;
+  color: #86D73F;
+  border: 6px solid #86D73F;
+}
+
+.btnWarning {
+  background: #424242;
+  color: #FF982D;
+  border: 6px solid #FF982D;
+}
+
+.btnInfo {
+  background: #424242;
+  color: #FF6C02;
+  border: 6px solid #FF6C02;
+}
+
+.btnMuted {
+  background: #424242;
+  color: #580509;
+  border: 6px solid #580509;
+}
+
+.btnDark {
+  background: #424242;
+  color: #FF1200;
+  border: 6px solid #FF1200;
+}
+
+.infor .textDanger {
+  color: #31BAF9;
+}
+
+.infor .textSuccess {
+  color: #86D73F;
+}
+
+.infor .textWarning {
+  color: #FF982D;
+}
+
+.infor .textInfo {
+  color: #FF6C02;
+}
+
+.infor .textMuted {
+  color: #580509;
+}
+
+.infor .textDark {
+  color: #FF1200;
+}
+
+.loop {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 100px;
+  top: 112px;
+}
+
+.inputBtn .material-icons {
+  font-size: 32px;
+}
+
+.delete {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.delete_button {
+  padding: 5px;
+  color: #212529;
+  background-color: #ffd366;
+  border-color: #ffd366;
+}
+
+.footer {
+  background-color: #ffd366;
+  padding: 18px 0;
+}
+
+.footer img {
+  margin: 0 auto;
+  display: block;
+}
+/*# sourceMappingURL=bmi.css.map */
